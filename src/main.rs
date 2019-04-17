@@ -4,7 +4,7 @@
 
 #[get("/")]
 fn index() -> &'static str {
-    "Hello, good afternoon!"
+    "Hello, good day!"
 }
 
 fn main() {
