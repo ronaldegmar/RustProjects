@@ -4,7 +4,7 @@
 
 #[get("/")]
 fn index() -> &'static str {
-    "Do it Sandbox"
+    "Do it in Sandbox"
 }
 
 fn main() {
