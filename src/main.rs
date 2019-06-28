@@ -4,7 +4,7 @@
 
 #[get("/")]
 fn index() -> &'static str {
-    "Probando con consul nueva version"
+    "Probando con nueva version de nomad"
 }
 
 fn main() {
