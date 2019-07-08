@@ -4,7 +4,7 @@
 
 #[get("/")]
 fn index() -> &'static str {
-    "Probando con nueva version de nomad"
+    "Testing jenkins pipeline with terraform12"
 }
 
 fn main() {
