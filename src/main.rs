@@ -2,9 +2,11 @@
 
 #[macro_use] extern crate rocket;
 
-#[get("/")]
-fn index() -> &'static str {
-    "Testing jenkins pipeline with terraform12"
+use rocket::http::RawStr;
+
+#[get("/<name>")]
+fn index(name: &RawStr) -> String {
+    format!("Testing, {}!", name.as_str())
 }
 
 fn main() {
